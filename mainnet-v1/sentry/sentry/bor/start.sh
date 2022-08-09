@@ -14,8 +14,8 @@ bor --datadir $DATA_DIR \
   --ipcpath $DATA_DIR/bor.ipc \
   --http.api 'eth,net,web3,txpool,bor' \
   --syncmode 'full' \
-  --networkid '137' \
-  --miner.gasprice '30000000000' \
+  --networkid '1370' \
+  --miner.gasprice '1000000000' \
   --miner.gaslimit '20000000' \
   --miner.gastarget '20000000' \
   --txpool.nolocals \
@@ -28,4 +28,3 @@ bor --datadir $DATA_DIR \
   --maxpeers 200 \
   --metrics \
   --pprof --pprof.port 7071 --pprof.addr '0.0.0.0'
-  
