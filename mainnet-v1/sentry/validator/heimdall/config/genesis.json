@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-07-30T20:26:52.122654081Z",
-  "chain_id": "heimdall-1234",
+  "genesis_time": "2022-04-13T10:47:58.937506727Z",
+  "chain_id": "heimdall-1370",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -30,7 +30,7 @@
       },
       "accounts": [
         {
-          "address": "0x70Acfa70Bca2e65C070096DD74e5B3AB8F93872a",
+          "address": "0x0D6A7f417506C66b00Ef27453C490690Fc84DA16",
           "coins": [
             {
               "denom": "matic",
@@ -66,8 +66,8 @@
                 "endEpoch": "0",
                 "nonce": "1",
                 "power": "10000",
-                "pubKey": "0x04b54184ad205e21d87875b13db4bc71601afe0f3e005c6c3c0bfa5bca1de7512f28302a917a6eb40149552e947cf4e47e5526453f30e138847f4cc7c2e5f3dc40",
-                "signer": "0x70Acfa70Bca2e65C070096DD74e5B3AB8F93872a",
+                "pubKey": "0x046e53fc713095ba3d948a93eb085bc4cc09037937e5149d0d19859c0f0c6579cd6c823056e01231929ac6a6b0084450264a23a11bf0f008483cd559a5e719d991",
+                "signer": "0x0D6A7f417506C66b00Ef27453C490690Fc84DA16",
                 "last_updated": "",
                 "jailed": false,
                 "accum": "0"
@@ -79,8 +79,8 @@
               "endEpoch": "0",
               "nonce": "1",
               "power": "10000",
-              "pubKey": "0x04b54184ad205e21d87875b13db4bc71601afe0f3e005c6c3c0bfa5bca1de7512f28302a917a6eb40149552e947cf4e47e5526453f30e138847f4cc7c2e5f3dc40",
-              "signer": "0x70Acfa70Bca2e65C070096DD74e5B3AB8F93872a",
+              "pubKey": "0x046e53fc713095ba3d948a93eb085bc4cc09037937e5149d0d19859c0f0c6579cd6c823056e01231929ac6a6b0084450264a23a11bf0f008483cd559a5e719d991",
+              "signer": "0x0D6A7f417506C66b00Ef27453C490690Fc84DA16",
               "last_updated": "",
               "jailed": false,
               "accum": "0"
@@ -93,14 +93,14 @@
               "endEpoch": "0",
               "nonce": "1",
               "power": "10000",
-              "pubKey": "0x04b54184ad205e21d87875b13db4bc71601afe0f3e005c6c3c0bfa5bca1de7512f28302a917a6eb40149552e947cf4e47e5526453f30e138847f4cc7c2e5f3dc40",
-              "signer": "0x70Acfa70Bca2e65C070096DD74e5B3AB8F93872a",
+              "pubKey": "0x046e53fc713095ba3d948a93eb085bc4cc09037937e5149d0d19859c0f0c6579cd6c823056e01231929ac6a6b0084450264a23a11bf0f008483cd559a5e719d991",
+              "signer": "0x0D6A7f417506C66b00Ef27453C490690Fc84DA16",
               "last_updated": "",
               "jailed": false,
               "accum": "0"
             }
           ],
-          "bor_chain_id": "1234"
+          "bor_chain_id": "1370"
         }
       ]
     },
@@ -109,13 +109,13 @@
         "mainchain_tx_confirmations": "6",
         "maticchain_tx_confirmations": "10",
         "chain_params": {
-          "bor_chain_id": "1234",
-          "matic_token_address": "0x20a98B23951A93D8144A50901fc2D93Eb8065665",
-          "staking_manager_address": "0xAD7f8904cC3994E74228b4eAbF3aD50bbfd59516",
-          "slash_manager_address": "0x9cB300d6008dB270F44f4Aff3E0e2401913e7C86",
-          "root_chain_address": "0xe1D68AA38d85706c9c4635cD294E92D294e09DB9",
-          "staking_info_address": "0x83E059C7b57098F1E7e990D808cd77Ad9de521F7",
-          "state_sender_address": "0x9ffd88b5E25e9E4eA4d3D74d9571fF52f73a1F20",
+          "bor_chain_id": "1370",
+          "matic_token_address": "0xDe4aCEb6bcB9c03A2B8170C2fAC12746271fc281",
+          "staking_manager_address": "0xC34b63C300dF3300a6D6c22c55F4bA0F8001d02c",
+          "slash_manager_address": "0x04630c65Bac538CF57bc2B400f161349cA2e42C3",
+          "root_chain_address": "0x369E28e4Cc3c8130b51E9bc400B34758e6c1D278",
+          "staking_info_address": "0x893D4FCCA584f0c686bCA730D8CdBef3a14b8971",
+          "state_sender_address": "0xEaE87170848E37df006e7C78B8353CF6E20313CF",
           "state_receiver_address": "0x0000000000000000000000000000000000001001",
           "validator_set_address": "0x0000000000000000000000000000000000001000"
         }
@@ -196,8 +196,8 @@
           "endEpoch": "0",
           "nonce": "1",
           "power": "10000",
-          "pubKey": "0x04b54184ad205e21d87875b13db4bc71601afe0f3e005c6c3c0bfa5bca1de7512f28302a917a6eb40149552e947cf4e47e5526453f30e138847f4cc7c2e5f3dc40",
-          "signer": "0x70Acfa70Bca2e65C070096DD74e5B3AB8F93872a",
+          "pubKey": "0x046e53fc713095ba3d948a93eb085bc4cc09037937e5149d0d19859c0f0c6579cd6c823056e01231929ac6a6b0084450264a23a11bf0f008483cd559a5e719d991",
+          "signer": "0x0D6A7f417506C66b00Ef27453C490690Fc84DA16",
           "last_updated": "",
           "jailed": false,
           "accum": "0"
@@ -211,8 +211,8 @@
             "endEpoch": "0",
             "nonce": "1",
             "power": "10000",
-            "pubKey": "0x04b54184ad205e21d87875b13db4bc71601afe0f3e005c6c3c0bfa5bca1de7512f28302a917a6eb40149552e947cf4e47e5526453f30e138847f4cc7c2e5f3dc40",
-            "signer": "0x70Acfa70Bca2e65C070096DD74e5B3AB8F93872a",
+            "pubKey": "0x046e53fc713095ba3d948a93eb085bc4cc09037937e5149d0d19859c0f0c6579cd6c823056e01231929ac6a6b0084450264a23a11bf0f008483cd559a5e719d991",
+            "signer": "0x0D6A7f417506C66b00Ef27453C490690Fc84DA16",
             "last_updated": "",
             "jailed": false,
             "accum": "0"
@@ -224,8 +224,8 @@
           "endEpoch": "0",
           "nonce": "1",
           "power": "10000",
-          "pubKey": "0x04b54184ad205e21d87875b13db4bc71601afe0f3e005c6c3c0bfa5bca1de7512f28302a917a6eb40149552e947cf4e47e5526453f30e138847f4cc7c2e5f3dc40",
-          "signer": "0x70Acfa70Bca2e65C070096DD74e5B3AB8F93872a",
+          "pubKey": "0x046e53fc713095ba3d948a93eb085bc4cc09037937e5149d0d19859c0f0c6579cd6c823056e01231929ac6a6b0084450264a23a11bf0f008483cd559a5e719d991",
+          "signer": "0x0D6A7f417506C66b00Ef27453C490690Fc84DA16",
           "last_updated": "",
           "jailed": false,
           "accum": "0"
@@ -242,7 +242,7 @@
       "tx_sequences": null,
       "dividend_accounts": [
         {
-          "user": "0x70acfa70bca2e65c070096dd74e5b3ab8f93872a",
+          "user": "0x0D6A7f417506C66b00Ef27453C490690Fc84DA16",
           "feeAmount": "0"
         }
       ]
