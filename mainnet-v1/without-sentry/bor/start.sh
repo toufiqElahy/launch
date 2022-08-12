@@ -14,15 +14,15 @@ DATA_DIR=$BOR_DIR/data
 
 bor --datadir $DATA_DIR \
   --port 30303 \
-  --http --http.addr '127.0.0.1' \
+  --http --http.addr '0.0.0.0' \
   --http.vhosts '*' \
   --http.corsdomain '*' \
   --http.port 8545 \
   --ipcpath $DATA_DIR/bor.ipc \
-  --http.api 'eth,net,web3,txpool,bor' \
+  --http.api 'eth,net,web3,txpool,bor,admin' \
+  --networkid '1370' \
   --syncmode 'full' \
-  --networkid '137' \
-  --miner.gasprice '30000000000' \
+  --miner.gasprice '1000000000' \
   --miner.gaslimit '20000000' \
   --miner.gastarget '20000000' \
   --txpool.nolocals \

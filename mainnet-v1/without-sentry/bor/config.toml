@@ -1,7 +1,7 @@
 chain = "mainnet"
 datadir = "/var/lib/bor/data"
-syncmode = "full"
 # keystore = "$BOR_DIR/keystore"
+syncmode = "full"
 
 [accounts]
 allow-insecure-unlock = true
@@ -21,7 +21,8 @@ api = ["eth", "net", "web3", "txpool", "bor"]
 
 [p2p]
 port = 30303
-maxpeers = 200
+maxpeers = 1
+nodiscover = true
 
 [miner]
 enabled = true
