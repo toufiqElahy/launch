@@ -72,8 +72,12 @@ EOF
 cat > heimdalld-bridge.service <<EOF
 [Unit]
   Description=heimdalld-bridge
+  StartLimitIntervalSec=500
+  StartLimitBurst=5
 
 [Service]
+  Restart=on-failure
+  RestartSec=5s
   WorkingDirectory=$NODE_DIR
   ExecStart=$BIN_DIR/bridge start --all
   Type=simple
