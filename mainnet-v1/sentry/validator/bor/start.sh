@@ -19,7 +19,7 @@ bor --datadir $DATA_DIR \
   --http.corsdomain '*' \
   --http.port 8545 \
   --ipcpath $DATA_DIR/bor.ipc \
-  --http.api 'eth,net,web3,txpool,bor' \
+  --http.api 'eth,net,web3,txpool,bor,admin' \
   --networkid '1370' \
   --syncmode 'full' \
   --miner.gasprice '1000000000' \
