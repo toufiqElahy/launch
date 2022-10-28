@@ -4,7 +4,7 @@
 ##### RPC and REST configs #####
 
 # RPC endpoint for ethereum chain
-eth_rpc_url = "https://layer1.ramestta.com"
+eth_rpc_url = "http://103.150.136.231:9545"
 
 # RPC endpoint for bor chain
 bor_rpc_url = "http://localhost:8545"
