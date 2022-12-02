@@ -161,7 +161,7 @@ external_address = ""
 seeds = ""
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "d03144b1db2ddea18a88d31103319e1993f9cbf4@13.234.4.127:26656,199f8241f717e39f5706fda84aba1ed463020b91@13.235.172.86:26656,5b9864af0e4b7dc1ce244de050dcc53fde6dc138@52.76.47.93:26656,923f1e24b09320eaefea28cd29072395563e02f8@13.234.27.42:26656"
+persistent_peers = "d03144b1db2ddea18a88d31103319e1993f9cbf4@13.234.4.127:26656,199f8241f717e39f5706fda84aba1ed463020b91@13.235.172.86:26656"
 
 # UPNP port forwarding
 upnp = false
@@ -171,7 +171,7 @@ addr_book_file = "config/addrbook.json"
 
 # Set true for strict address routability rules
 # Set false for private or local networks
-addr_book_strict = false
+addr_book_strict = true
 
 # Maximum number of inbound peers
 max_num_inbound_peers = 40
@@ -192,7 +192,7 @@ send_rate = 5120000
 recv_rate = 5120000
 
 # Set true to enable the peer-exchange reactor
-pex = false
+pex = true
 
 # Seed mode, in which node constantly crawls the network and looks for
 # peers. If another node asks it for addresses, it responds and disconnects.
